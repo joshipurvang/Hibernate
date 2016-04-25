@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=ZBJ0u9MaKtM&nohtml5=False =====> for JVM
+
+http://www.journaldev.com/3633/hibernate-interview-questions-and-answers==>Hibernate int
+http://career.guru99.com/hibernate-interview-questions/==> Hibernate Int
+
+http://java-questions.com/Serialization-interview-questions.html====> Serialization prob
