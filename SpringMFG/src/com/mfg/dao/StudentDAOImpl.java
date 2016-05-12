@@ -19,7 +19,13 @@ public class StudentDAOImpl implements StudentDAO {
     @Transactional
     public void addStudent(Student student) {
     	this.sessionFactory.getCurrentSession().beginTransaction();
-        this.sessionFactory.getCurrentSession().saveOrUpdate(student);
+        this.sessionFactory.getCurrentSession().save(student);
+        student.setName("EE1");
+        this.sessionFactory.getCurrentSession().getTransaction().commit();
+      //  this.sessionFactory.getCurrentSession().close();
+        student.setName("Testing1");
+       this.sessionFactory.getCurrentSession().beginTransaction();
+        this.sessionFactory.getCurrentSession().update(student);
         this.sessionFactory.getCurrentSession().getTransaction().commit();
         this.sessionFactory.getCurrentSession().close();
         

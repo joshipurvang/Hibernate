@@ -32,6 +32,7 @@ public class StudentController {
 	      model.addAttribute("age", student.getAge());
 	      model.addAttribute("id", student.getId());
 	      com.mfg.entity.Student studentEntity=new com.mfg.entity.Student();
+	      studentEntity.setId(Integer.parseInt(student.getId()));
 	      studentEntity.setName(student.getName());
 	      studentEntity.setAge(student.getAge());
 	      studentService.addStudent(studentEntity);
