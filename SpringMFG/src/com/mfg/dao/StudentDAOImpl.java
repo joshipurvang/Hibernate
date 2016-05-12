@@ -22,10 +22,12 @@ public class StudentDAOImpl implements StudentDAO {
         this.sessionFactory.getCurrentSession().save(student);
         student.setName("EE1");
         this.sessionFactory.getCurrentSession().getTransaction().commit();
-      //  this.sessionFactory.getCurrentSession().close();
-        student.setName("Testing1");
+      this.sessionFactory.getCurrentSession().close();
+       int no=358;
+        student.setId(no);
+        student.setName("TTPPPURVVNAG");
        this.sessionFactory.getCurrentSession().beginTransaction();
-        this.sessionFactory.getCurrentSession().update(student);
+        this.sessionFactory.getCurrentSession().saveOrUpdate(student);
         this.sessionFactory.getCurrentSession().getTransaction().commit();
         this.sessionFactory.getCurrentSession().close();
         
