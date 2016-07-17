@@ -1,0 +1,34 @@
+Questions On Java :
+
+1) Questions on method overloading & overriding
+2) Make an instance of object Non-Mutable.
+3) Difference between REST & SOAP based webservices
+4) How do you implement securities in web services both in SOAP & REST
+5) What are web services and why do we need them try to respond such that lehman can understand who doesn't even know programming & how computer talks.
+6) Basic questions on Exception Handling. When to use Checked Exception and when to use unchecked exceptions
+7) What are data races? How would you resolve it?
+8) What is volatile?
+9) What are different types of Locks available in java.util.concurrent package
+10) Write a program to create deadlock
+11) What is difference between Sleep and Wait method
+12) What is the roles and responsibilities of JIT compiler.
+13) Couple of questions on JVM configuration.
+14) How would you identify memory leaks in program. What are the tools you have used.
+15) Difference between Abstraction & Encapsulation.
+16) Basic questions on design patterns.
+
+
+OTH
+data structures-queues,stacks,linked list,binary trees
+When you are developing a web portal for which contain sensitive information, how should you maintain the session?
+How many servlet threads will be there for 1000 servlet requests?
+Synchronized methods inside a servlet, allowed?
+Can we write synchronized blocks in servlets?
+why do we have packages in PL/SQL.
+Take a scenario of developing an online exam portal where students will register and exam will be displayed on the basis of their skills.
+You need to identify and give how many screen would be there and write some sudo code to provide details.  
+
+Design a Restaurant Reservation System? 
+what is phishing
+
+
